@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `TailwindPlay`,
-    description: `GatsbyJS Starter styled with Tailwind CSS`,
-    author: `@Sm0keDev`,
-    github: `https://github.com/app-generator/gatsbyjs-starter-tailwindplay`,
-    blog: `https://blog.appseed.us/tag/gatsbyjs`,
-    product: `https://appseed.us/apps/gatsbyjs`,
-    docs: `https://docs.appseed.us/apps/gatsbyjs`
+    title: `HackClub `,
+    description: `Official page of CUCEK Hack Club`,
+    author: `@hackclub-cucek`,
+    github: `#`,
+    blog: `#`,
+    product: `#`,
+    docs: `#`
 
   },
   plugins: [
