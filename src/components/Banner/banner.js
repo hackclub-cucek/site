@@ -46,7 +46,10 @@ const Banner = () => {
             variants={variants}
             transition={{ ease: "easeOut", duration: 0.8, delay: 1 }}
           >
-            It's time to make your business <span>stand out</span>
+            Welcome to <br></br>{" "}
+            <span>
+              <b>Hack Club CUCEK</b>
+            </span>
           </motion.h1>
           <motion.p
             initial="hidden"
@@ -54,18 +57,22 @@ const Banner = () => {
             variants={variants}
             transition={{ ease: "easeOut", duration: 0.8, delay: 1.5 }}
           >
-            Startup is here to help you achieve your business and personal
-            goals, all through a stylish theme
+            Looking for a tech group accepted worldwide from our college?. You
+            just got into the right place.
           </motion.p>
-          <Link to="about" smooth={true} duration={500}>
+          <a
+            to="https://programmerme.typeform.com/to/GWniYppQ?"
+            smooth={true}
+            duration={500}
+          >
             <span className="sr-only">Jump to about</span>
             <Button
-              cta="Learn More"
+              cta="Join Now"
               label="Banner Learn More"
               anchor={true}
-              href="linking"
+              href="https://programmerme.typeform.com/to/GWniYppQ?"
             />
-          </Link>
+          </a>
         </div>
       </BackgroundImage>
     </BannerStyles>

@@ -22,129 +22,60 @@ const HomePage = () => {
       <Banner />
       <TextBlock
         id="about"
-        title="Developing a new business is never easy, but Startup is here to help"
-        paragraph="With a super-fast Gatsby powered website you have the perfect platform to get your idea off the ground. Its the perfect template to help turn your idea into a reality."
+        title="What is Hackclub"
+        paragraph="Hack Club CUCEK is a chapter of the international non-profit Hack Club and is a developers club at Cochin university college of engineering Kuttanad."
       >
-        <Link to="perks" smooth={true} duration={500}>
-          <Button label="Tell Me More" cta="Tell Me More!" />
-        </Link>
+        <a
+          href="https://hackclub.com"
+          target="_blank"
+          rel="noreferrer"
+          to="https://hackclub.com"
+          smooth={true}
+          duration={500}
+        >
+          <Button
+            href="https://google.com"
+            label="Tell Me More"
+            cta="Visit Hack Club"
+          />
+        </a>
       </TextBlock>
       <TextBlockImg
-        id="perks"
-        title="We have the tools to help you suceed"
-        subtitle="Startup is perfect for helping to to start and grow your business. As
-          you begin to gain new clients and expand you will see the benefits of
-          a super-fast Gatsby website"
+        id="about"
+        title="What do we do here"
+        subtitle="Please don't get fooled by the name. Hacking is not the only thing happening around . We do a lot of stuff here. We just want you to grasp every teeny tiny bit of info about tech."
       >
         <div className="flex-container trio-block">
           <Perk
             img={perk1Img}
             alt="Super fast speed increases"
-            title="Speedy"
-            content="Super-fast response times ensure your business is not affected"
+            title="Events"
+            content="Events which helps you to learn something new "
           />
           <Perk
             img={perk2Img}
             alt="Great savings to be made"
-            title="Affordable"
-            content="A choice of packages to suit every business type and size"
+            title="Networking"
+            content="Meet like minded people and stay motivated "
           />
           <Perk
             img={perk3Img}
             alt="Super fast speed increases"
-            title="Friendly"
-            content="Advisors who are available 24/7, all with exprt knowledge"
+            title="Mentoring"
+            content="Group of students mentors who are ready to help you "
           />
         </div>
       </TextBlockImg>
-      <Packages
-        title="Our Packages"
-        para="Choose the perfect solution for you. With benefits to suit all budgets Startup can offer amazing value and expert advice"
-      >
-        <IconContext.Provider
-          value={{
-            color: "#7FFF00",
-            size: "1.2em",
-            style: { verticalAlign: "middle", marginRight: "5px" },
-          }}
-        >
-          <Package title="Standard">
-            <ul>
-              <li>
-                <MdDone />1 User
-              </li>
-              <li>
-                <MdDone />
-                1GB Storage
-              </li>
-              <li className="linethrough">
-                <MdClear color="red" />
-                Dedicated Advisor
-              </li>
-              <li className="linethrough">
-                <MdClear color="red" />
-                24/7 Support
-              </li>
-            </ul>
-            <Link to="contact" smooth={true} duration={500}>
-              <Button label="I want this" cta="I want this!" />
-            </Link>
-          </Package>
-          <Package title="Hyper" active={true}>
-            <ul>
-              <li>
-                <MdDone />
-                24/7 Support
-              </li>
-              <li>
-                <MdDone />
-                Dedicated Advisor
-              </li>
-              <li>
-                <MdDone />
-                Unlimited Storage
-              </li>
-              <li>
-                <MdDone />
-                Unlimited Users
-              </li>
-            </ul>
-            <Link to="contact" smooth={true} duration={500}>
-              <Button label="I want this" cta="I want this!" />
-            </Link>
-          </Package>
-          <Package title="Super">
-            <ul>
-              <li>
-                <MdDone />
-                10 Users
-              </li>
-              <li>
-                <MdDone />
-                500GB Storage
-              </li>
-              <li>
-                <MdDone />
-                Advice Support
-              </li>
-              <li className="linethrough">
-                <MdClear color="red" />
-                Dedicated Advisor
-              </li>
-            </ul>
-            <Link to="contact" smooth={true} duration={500}>
-              <Button label="I want this" cta="I want this!" />
-            </Link>
-          </Package>
-        </IconContext.Provider>
-      </Packages>
-      <Contact
-        id="contact"
-        title="Contact Startup today and see how we can help your business grow"
-        subtitle="Every second counts when you're looking to get your new business started. Drop Startup a message and one of our representatives will be in contact"
-      />
     </>
   )
 }
 
 export default HomePage
+/*
+
+      <Contact
+        id="contact"
+        title="Contact Startup today and see how we can help your business grow"
+        subtitle="Every second counts when you're looking to get your new business started. Drop Startup a message and one of our representatives will be in contact"
+      />
+*/

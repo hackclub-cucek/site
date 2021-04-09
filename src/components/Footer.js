@@ -32,20 +32,20 @@ const Footer = ({ Logo }) => {
           <div className="brand-cont">
             {/* If there is a logo, render this */}
             {Logo && (
-              <Link to="/">
-                <img src={Logo} alt={`${footerData.title} logo`} />
+              <Link to="https://hackclub.com">
+                <img src="https://assets.hackclub.com/flag-standalone.svg" />
               </Link>
             )}
             <address>
-              85 Simone Weil Avenue
+              Cochin University College Of Engineering Kuttanad
               <br />
-              Watton-at-Stone
+              Pulincunnu P.O.
               <br />
-              SG14 8BL
+              Alappuzha District
+              <br />
+              688504
             </address>
-            <a className="telephone" href="tel:+004407076009211">
-              07076 009 211
-            </a>
+            <a className="telephone" href=""></a>
           </div>
         ) : null}
 
